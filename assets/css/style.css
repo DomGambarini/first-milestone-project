@@ -1,0 +1,28 @@
+#logo {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logo-header {
+    background-color: #FFFDD0;
+    color: #556B2F;
+    height: 100px;
+    width: 100%;
+}
+
+#nav {
+    background-color: #FFFDD0;
+    color: #556B2F;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+.our-story,
+.menus,
+.reservations,
+.find-us {
+    padding: 30px 20px 30px 20px;
+}
