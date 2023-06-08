@@ -1,0 +1,14 @@
+.menuitem-style {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/background-image.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
