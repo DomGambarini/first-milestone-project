@@ -1,9 +1,16 @@
-.menuitem-style {
+/* ----------------------------------------------------Navigation bar styling */
+
+#menuitem-style {
     font-family: "Montserrat", sans-serif;
-    letter-spacing: 2px;
+    color: #556B2F;
 }
 
-/* taken from: Beyond Bootstap - Updating Callout */
+
+.navbar {
+    background-color: #556B2F;
+}
+
+/* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
     height: 600px;
     width: 100%;
@@ -14,9 +21,11 @@
     background-size: cover;
 }
 
+/* ------------------------------------------------------Our story styling */
+
 .our-story-container {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #our-story-heading {
@@ -25,5 +34,23 @@
 }
 
 #our-story-content {
+    font-family: "Playfair Display", sans-serif;
+}
+
+#heading-rule {
+    margin-top: 80px;
+}
+
+/* ------------------------------------------------------Our story styling */
+
+
+#testimonials {
+    color: #556B2F;
+    padding-bottom:10px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.customer-reviews {
     font-family: "Playfair Display", sans-serif;
 }
