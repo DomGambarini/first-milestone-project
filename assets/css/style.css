@@ -3,6 +3,7 @@
     letter-spacing: 2px;
 }
 
+/* taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
     height: 600px;
     width: 100%;
@@ -11,4 +12,18 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.our-story-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#our-story-heading {
+    font-family: "Montserrat", sans-serif;
+    color: #556B2F;
+}
+
+#our-story-content {
+    font-family: "Playfair Display", sans-serif;
 }
