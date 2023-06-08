@@ -41,7 +41,7 @@
     margin-top: 80px;
 }
 
-/* ------------------------------------------------------Our story styling */
+/* ------------------------------------------------------ What are Customer's say */
 
 
 #testimonials {
@@ -61,25 +61,25 @@
 
 /* ------------------------------------------------------Footer */
 
-#follow-us {
-    color: #556B2F;
-    margin-bottom:10px;
+footer {
+    background-color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    
+}
+
+
+
+/* ------------------------------------------------------Margins, Padding, Text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.general-sub {
+    color:#556B2F;
     font-family: "Montserrat", sans-serif;
-}
-
-.follow-us-input {
-    margin-bottom:30px;
-    font-family: "Playfair Display", sans-serif;
-}
-
-form {
-    padding-top: 30px;
-    margin-bottom:30px;
-
-}
-
-.style-footer {
-    background-color: #D3D3D3;
-    width: 100%;
-  
 }
