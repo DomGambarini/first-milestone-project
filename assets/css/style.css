@@ -57,6 +57,7 @@
 
 .review-section {
     margin-bottom: 50px;
+    padding-bottom: 200px;
 }
 
 /* ------------------------------------------------------Footer */
@@ -65,10 +66,74 @@ footer {
     background-color: #fafafa;
     min-height: 120px;
     margin: 0;
+    padding-top: 20px;
+    color: #556B2F;
     
 }
 
+#name-field, #email-field {
+    margin: 5px;
+    width: 60%;
+    font-family: "Playfair Display", sans-serif;
+    
+}
 
+#email-field {
+    margin-left: 8px;
+}
+
+#signup-button {
+    padding: 5px;
+    margin: 15px 15px 15px 50px;
+    color: #fafafa;
+    border-radius: 6px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    background-color: #556B2F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signup-button:hover {
+    opacity: 5
+}
+
+#footer-heading {
+    font-family: "Montserrat", sans-serif;
+}
+
+#namefield {
+    font-family: "Playfair Display", sans-serif;
+}
+
+#emailfield {
+    font-family: "Playfair Display", sans-serif;
+}
+
+#openinghours {
+    font-family: "Playfair Display",sans-serif;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #556B2F;
+}
 
 /* ------------------------------------------------------Margins, Padding, Text */
 
