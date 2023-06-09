@@ -2,13 +2,29 @@
 
 #menuitem-style {
     font-family: "Montserrat", sans-serif;
-    color: #556B2F;
+    
 }
 
 
 .navbar {
     background-color: #556B2F;
 }
+
+.our-story .menus .reservations .find-us {
+    float: right;
+}
+
+.menu-navbar-align {
+    text-align: center;
+}
+
+#logo {
+    color: #556B2F;
+    text-transform: uppercase;
+   
+}
+
+
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
@@ -57,7 +73,7 @@
 
 .review-section {
     margin-bottom: 50px;
-    padding-bottom: 200px;
+    overflow: auto;
 }
 
 /* ------------------------------------------------------Footer */
@@ -68,6 +84,8 @@ footer {
     margin: 0;
     padding-top: 20px;
     color: #556B2F;
+    text-align: center;
+    overflow: auto;
     
 }
 
@@ -83,7 +101,7 @@ footer {
 }
 
 #signup-button {
-    padding: 5px;
+    padding: 5px 0 10px 0;
     margin: 15px 15px 15px 50px;
     color: #fafafa;
     border-radius: 6px;
@@ -118,7 +136,7 @@ footer {
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px 0;
+    padding: 12px 0 10px 0;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
