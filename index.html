@@ -126,14 +126,30 @@
 
     </section>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid fixed-bottom">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4">
                 <h5 class="general-sub">Follow us</h5>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name-field">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name">
+                    </div>
+                    <div>
+                        <label for="email-field">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email">
+                    </div>
+                    <button type="submit"><strong>Sign Me Up!</strong></button>
+
+                </form>
             </div>
-            
+            <div class="col-sm-4">
+                <h5 class="general-sub">Opening Times</h5>
+                OPENING HOURS
+            </div>
             <div class="col-sm-4">
                 <h5 class="general-sub">Social</h5>
+                SOCIAL ICONS
             </div>
         </div>
     </footer>
