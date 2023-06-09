@@ -14,6 +14,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <style>
+        .navbar {
+            color: #556B2F;
+        }
+    </style>
 
 
     <title>Hugo's Bistro</title>
@@ -21,7 +26,7 @@
 <!-- Navigation element taken from youtube video: Navbar boostrap - Adrian Twarog-->
 <body>
     <header>
-       
+
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top navbar-custom" 
         id="menuitem-style">
             <a href="index.html" class="navbar-brand">
@@ -35,33 +40,34 @@
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            class="navbar-custom"
             >
             <span class="navbar-toggler-icon"></span>
 
             </button>
-            <div class="menu-navbar-align">
+            <div class="menu-navbar-align navbar-custom">
                 <div class="row collapse navbar-collapse" 
                 id="navbarNav">
                 <div class="col">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#" class="nav-link ourstory">
-                            Our Story
+                            <span class="navbar-custom">Our Story</span>
                         </a> 
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            Menus
+                            <span class="navbar-custom">Menus</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            Reservations
+                            <span class="navbar-custom">Reservations</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            Find Us
+                            <span class="navbar-custom">Find Us</span>
                         </a>
                     </li>
                 </ul>
@@ -129,7 +135,7 @@
     </section>
 
     <footer class="container-fluid fixed-bottom">
-        <div class="row">
+        <div class="row" class="footer-details">
             <div class="col-sm-4">
                 <h5 class="general-sub" id="footer-heading">Join Our Newsletter</h5>
                 <br>
@@ -202,6 +208,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
    
 </body>
 
