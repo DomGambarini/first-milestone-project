@@ -42,8 +42,8 @@
 /* ------------------------------------------------------Our story styling */
 
 .our-story-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    
 }
 
 #our-story-heading {
@@ -55,9 +55,7 @@
     font-family: "Playfair Display", sans-serif;
 }
 
-#heading-rule {
-    margin-top: 80px;
-}
+
 
 /* ------------------------------------------------------ What are Customer's say */
 
@@ -74,7 +72,7 @@
 }
 
 .review-section {
-    margin-bottom: 50px;
+    padding-top: 20px;
     overflow: auto;
 }
 
@@ -167,6 +165,7 @@ h4 {
 .general-sub {
     color:#556B2F;
     font-family: "Montserrat", sans-serif;
+    
 }
 
 body {
@@ -174,3 +173,14 @@ body {
 }
 
 
+/* ------------------------------------------------------Food & Drink Menu Page*/
+
+.food-menu-image {
+    background-image: url("../images/glass-of-wine.jpg") no-repeat center center;
+    height: 600px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
