@@ -168,19 +168,39 @@ h4 {
     
 }
 
-body {
+#index-padding-bottom {
     padding-bottom: 250px;
 }
 
 
 /* ------------------------------------------------------Food & Drink Menu Page*/
 
-.food-menu-image {
-    background-image: url("../images/glass-of-wine.jpg") no-repeat center center;
-    height: 600px;
-    width: 100%;
+#food-menu-image {
+    background: url("../images/steak-tartare.jpg") no-repeat center center;
+    height: 400px;
+    width: 70%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-top: 80px;
+    margin-left: 20px;
+    
+}
+
+#drink-menu-image {
+    background: url("../images/cocktail.jpg") no-repeat center center;
+    height: 400px;
+    width: 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.menu-image-layout {
+    padding-left: 10%;
+    padding-top: 10px;
 }
