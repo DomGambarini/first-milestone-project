@@ -175,7 +175,7 @@ h4 {
 
 
 
-#food-menu-image {
+#lunch-menu-image {
     background: url("../images/steak-tartare.jpg") no-repeat center center;
     
     height: 400px;
@@ -195,7 +195,7 @@ h4 {
    
 }
 
-#cover-content-food {
+#cover-content {
    
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -212,6 +212,26 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#specials-menu-image {
+    background: url("../images/fish-market.jpg") no-repeat center center;
+
+    height: 400px;
+    width: 70%;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
 }
 
 
@@ -232,30 +252,33 @@ h4 {
         left: 50%;
         transform: translate(-50%, -50%);
     
-    
 }
 
-#cover-content-drink {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    z-index: 2;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+#evening-menu-image {
+    background: url("../images/ribeye-steak.jpg") no-repeat center center;
+
+    height: 400px;
+    width: 70%;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
     position: absolute;
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 .image-positioning {
     position: relative;
     width: 300px;
     height: 400px;
+    padding: 40px;
     
 }
 
