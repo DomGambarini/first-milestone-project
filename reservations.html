@@ -20,7 +20,6 @@
     <title>Hugo's Bistro</title>
 </head>
 <!-- Navigation element taken from youtube video: Navbar boostrap - Adrian Twarog-->
-
 <body>
     <header>
 
@@ -69,69 +68,73 @@
 
     </header>
 
-    <section>
-        <div class="row outer-image-diplay">
-            <div class="col-sm-3 image-positioning">
-                <a href="#" target="_blank">
-                    <div id="lunch-menu-image">
-                    <div id="cover-content">
-                        <h2>To Eat</h2>
-                            <br>
-                            <p>Lunch 12 to 5 
-                    </div>
-                </div>
-                </a>
-            </div>
-
-            <div class="col-sm-3 image-positioning">
-                <a href="#" target="_blank">
-                <div id="evening-menu-image">
-                    <div id="cover-content">
-                        <h2>To Eat</h2>
-                        <br>
-                        <p>Dinner
-                            <br>
-                            5 to 10
-                        </p>
-                    </div>
-                </div>
-                </a>
+    <section id="reservation-form">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 id="reservation-heading">Reservations</h2>
+                <br>
+                <p class="lead">Please enter your contact details below to make a booking. For parties of more than 8, please call us on 01222 555666.</p>
             </div>
             
-            <div class="col-sm-3 image-positioning">
-                <a href="#" target="_blank">
-                <div id="specials-menu-image">
-                    <div id="cover-content">
-                        <h2>To Eat</h2>
-                        <br>
-                        <p>Specials
-                            <br>
-                            12 to 10
-                        </p>
-                    </div>
-                </div>
-                </a>
-            </div>
+            <div class="row justify-content-center my-5" id="form-content-layout">
 
-            <div class="col-sm-3 image-positioning">
-                <a href="#" target="_blank">
-                <div id="drink-menu-image">
-                    <div id="cover-content">
-                        <h2>To Drink</h2>
+                <div class="col-6-lg">
+                    <form action="#" method="post">
+
+                        <label for="booking-date" class="form-label">Date:</label>
+                        <input type="date" class="form-control" id="booking-date" name="booking-date" 
+                        min="2023-01-01" max="2025-12-31" required>
                         <br>
-                        <p>Everyday
-                            <br>
-                            12 to 11
-                        </p>
-                    </div>
+                        <label for="booking-time" class="form-label">Time:</label>
+                        <input type="time" class="form-control" id="booking-timename" name="booking-date" required>
+                        <br>
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="e.g John Smith" required>
+                        <br>
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="e.g johnsmith@example.com" required>
+                        <br>
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input type="text" class="form-control" id="phone" placeholder="e.g 07772 555666" required>
+                        <br>
+                        <label for="Guests" class="form-label">No. of Guests:</label>
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option selected>Select the number of guests</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                        <br>
+                        <label for="query" class="form-label">
+                            Do you have any allergy or dietary requirements?</label>
+                        <textarea name="" id="query" class="form-control" style="height: 100px;"></textarea>
+                        <br>
+                        <div class="mb-4 text-center">
+                            <button type="submit" id="booknow-button"><strong>Book Now!</strong></button>
+                        </div>
+
+
+                        
+                    </form>
+
                 </div>
-                </a>
             </div>
         </div>
     </section>
 
 
-        <footer class="container-fluid">
+
+
+
+
+
+
+    <footer class="container-fluid">
             <div class="row" class="footer-details">
                 <div class="col-sm-4">
                     <h5 class="general-sub" id="footer-heading">Join Our Newsletter</h5>
@@ -190,7 +193,7 @@
                     </ul>
                 </div>
             </div>
-        </footer>
+    </footer>
         
         
         
