@@ -50,6 +50,7 @@
 #our-story-heading {
     font-family: "Montserrat", sans-serif;
     color: #556B2F;
+    text-transform: uppercase;
 }
 
 #our-story-content {
@@ -285,11 +286,19 @@ h4 {
 
 
 .outer-image-diplay {
-padding-bottom: 100px;
-padding-top: 180px;
+padding-bottom: 80px;
+
 }
 
+#menu-positioning-down-page {
+    padding-top: 150px;
+}
 
+#menus-uppercase {
+    text-transform: uppercase;
+    color: #556B2F;
+    font-family: "Montserrat", sans-serif;
+}
 /* ------------------------------------------------------Reservations*/
 
 #booknow-button {
@@ -311,7 +320,7 @@ padding-top: 180px;
 }
 
 #reservation-form {
-    margin-top: 120px;
+    margin-top: 150px;
     
 }
 
