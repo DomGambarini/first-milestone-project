@@ -2,16 +2,17 @@
 
 #menuitem-style {
     font-family: "Montserrat", sans-serif;
-    
-}
 
+}
 
 .navbar {
     background-color: #556B2F;
+    
 }
 
 .our-story .menus .reservations .find-us {
     float: right;
+    
 }
 
 .menu-navbar-align {
@@ -21,11 +22,16 @@
 #logo {
     color: #556B2F;
     text-transform: uppercase;
-   
+
 }
 
 .navbar-custom {
     color: #556B2F;
+   
+}
+
+#nav-hamburger-align {
+    margin-left: auto;
 }
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
@@ -44,13 +50,14 @@
 .our-story-container {
     padding-bottom: 90px;
     padding-top: 150px;
-    
+
 }
 
 #our-story-heading {
     font-family: "Montserrat", sans-serif;
     color: #556B2F;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 #our-story-content {
@@ -64,7 +71,7 @@
 
 #testimonials {
     color: #556B2F;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -74,7 +81,7 @@
 }
 
 .review-section {
-    padding-top: 20px;
+    padding-top: 100px;
     overflow: auto;
 }
 
@@ -88,14 +95,15 @@ footer {
     color: #556B2F;
     text-align: center;
     overflow: auto;
-    
+    margin-top: 150px;
 }
 
-#name-field, #email-field {
+#name-field,
+#email-field {
     margin: 5px;
     width: 60%;
     font-family: "Playfair Display", sans-serif;
-    
+
 }
 
 #email-field {
@@ -103,8 +111,9 @@ footer {
 }
 
 #signup-button {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
     color: #fafafa;
     border-radius: 6px;
     opacity: 0.6;
@@ -119,28 +128,19 @@ footer {
     opacity: 5
 }
 
-#footer-heading {
-    font-family: "Montserrat", sans-serif;
-}
-
-#namefield {
+#namefield, #emailfield, #openinghours{
     font-family: "Playfair Display", sans-serif;
 }
 
-#emailfield {
-    font-family: "Playfair Display", sans-serif;
-}
 
-#openinghours {
-    font-family: "Playfair Display",sans-serif;
-}
+
 
 .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0 10px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -155,6 +155,12 @@ footer {
     background: #556B2F;
 }
 
+#social-heading, #footer-heading, #openinghours-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
 /* ------------------------------------------------------Margins, Padding, Text */
 
 h1,
@@ -165,9 +171,9 @@ h4 {
 }
 
 .general-sub {
-    color:#556B2F;
+    color: #556B2F;
     font-family: "Montserrat", sans-serif;
-    
+
 }
 
 
@@ -179,29 +185,29 @@ h4 {
 
 #lunch-menu-image {
     background: url("../images/steak-tartare.jpg") no-repeat center center;
-    
+
     height: 400px;
     width: 70%;
-    
+
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
+
     position: absolute;
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
-   
+
+
 }
 
 #cover-content {
-   
+
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    
+
     padding: 20px;
     text-align: center;
     z-index: 2;
@@ -239,21 +245,21 @@ h4 {
 
 #drink-menu-image {
     background: url("../images/cocktail.jpg") no-repeat center center;
-    
-        height: 400px;
-        width: 70%;
-    
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
 
-        position: absolute;
+    height: 400px;
+    width: 70%;
 
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 
@@ -281,12 +287,12 @@ h4 {
     width: 300px;
     height: 400px;
     padding: 40px;
-    
+
 }
 
 
 .outer-image-diplay {
-padding-bottom: 80px;
+    padding-bottom: 80px;
 
 }
 
@@ -299,6 +305,7 @@ padding-bottom: 80px;
     color: #556B2F;
     font-family: "Montserrat", sans-serif;
 }
+
 /* ------------------------------------------------------Reservations*/
 
 #booknow-button {
@@ -321,7 +328,7 @@ padding-bottom: 80px;
 
 #reservation-form {
     margin-top: 150px;
-    
+
 }
 
 #reservation-heading {
@@ -348,7 +355,7 @@ padding-bottom: 80px;
 }
 
 .find-us-text {
-   font-family: "Playfair Display", sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
 #find-us-heading {
@@ -356,4 +363,17 @@ padding-bottom: 80px;
     font-family: "Montserrat", sans-serif;
     color: #556B2F;
     padding-top: 50px;
+}
+
+
+/* ------------------------------------------------------Forms*/
+
+input, textarea {
+    padding: 1px 5px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 100px;
 }
