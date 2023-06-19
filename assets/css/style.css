@@ -21,9 +21,6 @@
    
 }
 
-#nav-hamburger-align {
-   margin-left: auto;
-}
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
@@ -35,26 +32,6 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
-/* ------------------------------------------------------Our story styling */
-
-.our-story-container {
-    padding-bottom: 90px;
-    padding-top: 150px;
-
-}
-
-#our-story-heading {
-    font-family: "Montserrat", sans-serif;
-    color: #556B2F;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-
-#our-story-content {
-    font-family: "Playfair Display", sans-serif;
-}
-
 
 
 /* ------------------------------------------------------ What are Customer's say */
@@ -104,9 +81,9 @@
 
 #index-ourstory-content {
     font-family: "Playfair Display", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-top: 10px;
-    line-height: 1.8;
+    line-height: 2;
     padding-bottom: 20px;
 }
 
@@ -202,6 +179,55 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: "Montserrat", sans-serif;
+}
+
+
+/* ------------------------------------------------------Our story page */
+
+.our-story-container {
+    padding-bottom: 90px;
+    padding-top: 150px;
+
+}
+
+#our-story-heading {
+    font-family: "Montserrat", sans-serif;
+    color: #556B2F;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#our-story-content {
+    font-family: "Playfair Display", sans-serif;
+}
+
+#our-story-images {
+    margin-bottom: -50px;
+
+}
+
+#mussels-cooking {
+    background: url("../images/mussels-cooking.jpg") no-repeat center center;
+    height: 400px;
+    width: 100%;
+}
+
+#mussel-basket {
+    background: url("../images/mussel-basket.jpg") no-repeat center center;
+    height: 400px;
+    width: 100%;
+    }
+
+#mussels-dish {
+    background: url("../images/mussels-dish.jpg") no-repeat center center;
+    height: 400px;
+    width: 100%;
+    }
+
+ .image-positioning-ourstory {
+    width: 300px;
+    height: 400px;
+    padding: 40px;
 }
 
 /* ------------------------------------------------------Margins, Padding, Text */
@@ -335,7 +361,7 @@ h4 {
 
 
 .outer-image-diplay {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 
 }
 
@@ -347,7 +373,7 @@ h4 {
     text-transform: uppercase;
     color: #556B2F;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 /* ------------------------------------------------------Reservations*/
