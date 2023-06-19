@@ -10,33 +10,24 @@
     
 }
 
-.our-story .menus .reservations .find-us {
-    float: right;
-    
-}
-
-.menu-navbar-align {
-    text-align: center;
-}
-
 #logo {
     color: #556B2F;
     text-transform: uppercase;
 
 }
 
-.navbar-custom {
+.navbar-color {
     color: #556B2F;
    
 }
 
 #nav-hamburger-align {
-    margin-left: auto;
+   margin-left: auto;
 }
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../images/background-image.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -82,8 +73,62 @@
 
 .review-section {
     padding-top: 100px;
-    overflow: auto;
+    padding-bottom: 100px;
+    
 }
+
+/* ------------------------------------------------------Landing page: our story */
+
+
+#index-ourstory-image {
+    padding-top: 100px;
+    
+}
+
+#image-landing-page {
+    height: 500px;
+    width: 100%;
+    background: url("../images/restaurant-at-night.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#index-ourstory {
+    padding-bottom: 10px;
+    
+}
+
+
+#index-ourstory-content {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1rem;
+    padding-top: 10px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+#readmore-button {
+
+    color: #fafafa;
+    border-radius: 6px;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: #556B2F;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 10px;
+}
+
+#readmore-button:hover {
+    opacity: 5
+}
+
+
 
 /* ------------------------------------------------------Footer */
 
@@ -131,8 +176,6 @@ footer {
 #namefield, #emailfield, #openinghours{
     font-family: "Playfair Display", sans-serif;
 }
-
-
 
 
 .social-links li a i {
@@ -208,7 +251,7 @@ h4 {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     z-index: 2;
     font-family: "Montserrat", sans-serif;
@@ -304,6 +347,7 @@ h4 {
     text-transform: uppercase;
     color: #556B2F;
     font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
 }
 
 /* ------------------------------------------------------Reservations*/
