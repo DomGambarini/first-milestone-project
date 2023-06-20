@@ -7,7 +7,7 @@
 
 .navbar {
     background-color: #556B2F;
-    
+
 }
 
 #logo {
@@ -18,13 +18,10 @@
 
 .navbar-color {
     color: #556B2F;
-   
+
 }
 
-#nav-hamburger-align {
-    margin-left: auto;
-    
-}
+
 
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
@@ -37,8 +34,8 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    
-  
+
+
 }
 
 /* ---------------------------------------------------------------------- Hero Imange: Call to Action */
@@ -51,18 +48,18 @@
     margin-top: 250px;
     right: 0;
     margin-right: 70px;
-    
-    f-webkit-background-size: cover;
+
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-    
+
 }
 
-@media all and (max-width: 565px) {
+@media all and (max-width: 480px) {
     #cta-hero-container {
         display: none;
     }
@@ -91,23 +88,22 @@
 
 #cta-hero-button {
     color: #fafafa;
-        border-radius: 6px;
-        opacity: 0.6;
-        transition: 0.3s;
-        background-color: #556B2F;
-        text-decoration: none;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-size: large;
-        padding: 10px;
-        font-family: "Montserrat", sans-serif;
-        margin-left: 110px;
-    }
+    border-radius: 6px;
+    opacity: 0.6;
+    transition: 0.3s;
+    background-color: #556B2F;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 110px;
+}
 
 #cta-hero-button:hover {
     opacity: 5
 }
-
 
 
 
@@ -129,7 +125,7 @@
 .review-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    
+
 }
 
 /* ------------------------------------------------------Landing page: our story */
@@ -137,7 +133,7 @@
 
 #index-ourstory-image {
     padding-top: 100px;
-    
+
 }
 
 #image-landing-page {
@@ -153,7 +149,7 @@
 
 #index-ourstory {
     padding-bottom: 10px;
-    
+
 }
 
 
@@ -232,7 +228,9 @@ footer {
     opacity: 5
 }
 
-#namefield, #emailfield, #openinghours{
+#namefield,
+#emailfield,
+#openinghours {
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -257,7 +255,9 @@ footer {
     background: #556B2F;
 }
 
-#social-heading, #footer-heading, #openinghours-heading {
+#social-heading,
+#footer-heading,
+#openinghours-heading {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: "Montserrat", sans-serif;
@@ -309,7 +309,7 @@ footer {
     border-radius: 10px;
 }
 
- .image-positioning-ourstory {
+.image-positioning-ourstory {
     width: 300px;
     height: 400px;
     padding: 40px;
@@ -354,6 +354,7 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    border-radius: 10px;
 
 }
 
@@ -374,6 +375,8 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    border-radius: 10px;
 }
 
 #specials-menu-image {
@@ -393,6 +396,7 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    border-radius: 10px;
 
 }
 
@@ -414,6 +418,7 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    border-radius: 10px;
 }
 
 
@@ -433,6 +438,8 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    border-radius: 10px;
 
 }
 
@@ -523,7 +530,8 @@ h4 {
 
 /* ------------------------------------------------------Forms*/
 
-input, textarea {
+input,
+textarea {
     padding: 1px 5px;
     font-family: "Playfair Display", sans-serif;
     font-size: 1rem;
