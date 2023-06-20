@@ -31,8 +31,60 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 
+/* ---------------------------------------------------------------------- Hero Imange: Call to Action */
+
+
+#cta-hero-container {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-left: 1150px;
+    margin-top: 400px;
+}
+
+#cta-hero-heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#cta-hero-text {
+    font-family: "Playfair Display", sans-serif;
+    color: #fafafa;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 1.2rem;
+
+}
+
+#cta-hero-button {
+    color: #fafafa;
+        border-radius: 6px;
+        opacity: 0.6;
+        transition: 0.3s;
+        background-color: #556B2F;
+        text-decoration: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: large;
+        padding: 10px;
+        font-family: "Montserrat", sans-serif;
+        margin-left: 110px;
+    }
+
+#cta-hero-button:hover {
+    opacity: 5
+}
 
 /* ------------------------------------------------------ What are Customer's say */
 
@@ -99,6 +151,7 @@
     text-transform: uppercase;
     font-size: large;
     padding: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #readmore-button:hover {
@@ -144,6 +197,9 @@ footer {
     background-color: #556B2F;
     text-decoration: none;
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 #signup-button:hover {
