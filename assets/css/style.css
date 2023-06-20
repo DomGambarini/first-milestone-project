@@ -21,6 +21,11 @@
    
 }
 
+#nav-hamburger-align {
+    margin-left: auto;
+    
+}
+
 
 /* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
@@ -45,7 +50,7 @@
     width: 350px;
     margin-top: 250px;
     right: 0;
-    margin-right: 250px;
+    margin-right: 70px;
     
     f-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -57,7 +62,7 @@
     
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 565px) {
     #cta-hero-container {
         display: none;
     }
