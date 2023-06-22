@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    
 
 
 
@@ -22,55 +23,61 @@
 <!-- Navigation element taken from youtube video: Navbar boostrap - Adrian Twarog-->
 
 <body>
-    <header>
+<header>
+    <!-- Navigation idea taken from youtube video: Navbar boostrap - Adrian Twarog-->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom" id="menuitem-style">
-            <div class="container">
 
-                <a href="index.html" class="navbar-brand">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom" id="menuitem-style">
+        <div class="container">
 
-                    <div id="logo">
-                        <h1 id="d-inline-block align-top custom-color">Hugo's Bistro</h1>
-                    </div>
-                </a>
+            <a href="index.html" class="navbar-brand">
 
-                <button id="nav-hamburger-align" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation" class="navbar-color">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="menu-navbar-align navbar-color">
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a href="our-story.html" class="nav-link ourstory">
-                                    <span class="navbar-custom">Our Story</span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a href="menus.html" class="nav-link">
-                                    <span class="navbar-custom">Menus</span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a href="reservations.html" class="nav-link">
-                                    <span class="navbar-custom">Reservations</span>
-                                </a>
-                            </li>
-                            <li class="nav-item active">
-                                <a href="find-us.html" class="nav-link">
-                                    <span class="navbar-custom">Find Us</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
+                <div id="logo">
+                    <h1 id="d-inline-block align-top custom-color">Hugo's Bistro</h1>
                 </div>
-            </div>
-        </nav>
+            </a>
 
-    </header>
+            <!-- Hamburger Icon -->
+
+            <button id="nav-hamburger-align" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-color">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar menu items -->
+
+            <div class="menu-navbar-align navbar-color">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="our-story.html" class="nav-link ourstory">
+                                <span class="navbar-custom">Our Story</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="menus.html" class="nav-link">
+                                <span class="navbar-custom">Menus</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="reservations.html" class="nav-link">
+                                <span class="navbar-custom">Reservations</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="find-us.html" class="nav-link">
+                                <span class="navbar-custom">Find Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+</header>
 
 
     <section id="reservation-form">
@@ -81,6 +88,8 @@
                 <p class="lead">Please enter your contact details below to make a booking. For parties of more than 8,
                     please call us on 01222 555666.</p>
             </div>
+        
+    <!-- Reference: Youtube video - working with forms -->
 
             <div class="row justify-content-center my-5" id="form-content-layout">
 
@@ -90,20 +99,20 @@
                         <label for="booking-date" class="form-label">Date:</label>
                         <input type="date" class="form-control" id="booking-date" name="booking-date" min="2023-01-01"
                             max="2025-12-31" required>
-                        <br>
+                        
                         <label for="booking-time" class="form-label">Time:</label>
                         <input type="time" class="form-control" id="booking-time" name="booking-date" required>
-                        <br>
+                        
                         <label for="name" class="form-label">Name:</label>
                         <input type="text" class="form-control" id="name" placeholder="e.g John Smith" required>
-                        <br>
+                        
                         <label for="email" class="form-label">Email:</label>
                         <input type="email" class="form-control" id="email" placeholder="e.g johnsmith@example.com"
                             required>
-                        <br>
+                        
                         <label for="phone" class="form-label">Phone:</label>
                         <input type="text" class="form-control" id="phone" placeholder="e.g 07772 555666" required>
-                        <br>
+                        
                         <label for="Guests" class="form-label">No. of Guests:</label>
                         <select class="form-select" aria-label="Default select example" required>
                             <option selected>Select the number of guests</option>
@@ -139,10 +148,11 @@
 
 
     <footer class="container-fluid">
+        <!-- Newsletter -->
         <div class="row" class="footer-details">
             <div class="col-sm-4">
                 <h5 class="general-sub" id="footer-heading">Join Our Newsletter</h5>
-
+    
                 <form action="https://formdump.codeinstitute.net" method="post">
                     <div>
                         <label for="name-field" id="namefield">Name</label>
@@ -153,21 +163,27 @@
                         <input id="email-field" type="email" name="email" placeholder="Your email" required>
                     </div>
                     <button type="submit" id="signup-button"><strong>Sign Me Up!</strong></button>
-
+    
                 </form>
             </div>
+    
+            <!-- Opening Hours -->
+    
             <div class="col-sm-4">
                 <h5 class="general-sub" id="openinghours-heading">Opening Hours</h5>
-
+    
                 <div id="openinghours">
                     <P>Sunday to Thursday 12 to 22:00</P>
                     <P>Friday and Saturday 12 to 23:00</P>
                 </div>
-
+    
             </div>
+    
+            <!-- Social Icons (taken from Code Institute module: Mini Project with Bootstrap)-->
+    
             <div class="col-sm-4">
                 <h5 class="general-sub" id="social-heading">Social</h5>
-
+    
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com">
@@ -193,7 +209,7 @@
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
-
+    
                 </ul>
             </div>
         </div>

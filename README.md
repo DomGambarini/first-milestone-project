@@ -115,22 +115,27 @@ Features the email, contact number and address for Hugos Bistro
 
 ### Features to be included in the future:
 
-- Google maps to be included on the find us page for the location of Hugos Bistro
+- The location of the restaurant using Google maps on the find us page.
 - Time input on the reservation form requires JavaScript to allow booking times between 12 and 22:00 every 15 minutes.
-- Captcha to set to deter spam for both the newsletter and reservation form. Javascript required. 
+- Captcha to deter spam for both the newsletter and reservation form. Javascript required. 
 - To include more images of the decor, service and drinks as a carousel on the homepage.
 
 
 ## Technology 
 
-**Language:** HTML, CSS
-**Google Fonts:** Montserrat for headings and Playfair Display for content
-**Font Awesome:** For the social media icons in the footer
-**Bootstrap 5:**  Used for the grid system in aid of responsive design for the navigation bar, footer and sections in each page.
+- **Language:** HTML, CSS
+- **Google Fonts:** Montserrat for headings and Playfair Display for content
+- **Font Awesome:** for the social media icons in the footer
+- **Bootstrap 5:**  used for the grid system in aid of responsive design for the navigation bar, footer and sections in each page.
+- **Code Anywhere:** used as a cloud code editor.
+- **GitHub:** used as a cloud based code repository. 
 
 ### Color used
 
-**Headings:** Dark olive green #556B2F
-**Nav bar and footer background:** Off white #fafafa 
-**Content:** Default color
+- **Headings:** Dark olive green #556B2F
+- **Nav bar and footer background:** Off white #fafafa 
+- **Content:** black
+
+
+
 

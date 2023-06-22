@@ -1,4 +1,17 @@
-/* ----------------------------------------------------Navigation bar styling */
+/* ----------------------------------------------------System font to improve performance */
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+        url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+}
+
+/* ----------------------------------------------------------------Navigation bar  */
+
+
 
 #menuitem-style {
     font-family: "Montserrat", sans-serif;
@@ -16,15 +29,10 @@
 
 }
 
-.navbar-color {
-    color: #556B2F;
 
-}
+/* --------------------------------------------------------------------------- Hero Image */
 
 
-
-
-/* ----------------------------------------------------taken from: Beyond Bootstap - Updating Callout */
 #hero-image {
     height: 800px;
     width: 100%;
@@ -34,11 +42,9 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-
-
 }
 
-/* ---------------------------------------------------------------------- Hero Imange: Call to Action */
+/* -------------------------------------------------------------------------- Hero Image: Call to Action review and button */
 
 
 #cta-hero-container {
@@ -106,8 +112,6 @@
 }
 
 
-
-
 /* ------------------------------------------------------ What are Customer's say */
 
 
@@ -128,7 +132,7 @@
 
 }
 
-/* ------------------------------------------------------Landing page: our story */
+/* ------------------------------------------------------Homepage: Our Story */
 
 
 #index-ourstory-image {
@@ -182,7 +186,7 @@
 
 
 
-/* ------------------------------------------------------Footer */
+/* -----------------------------------------------------------Footer (referenced from CI mini project 4: beyond Bootstrap 4) */
 
 footer {
     background-color: #fafafa;
@@ -264,7 +268,7 @@ footer {
 }
 
 
-/* ------------------------------------------------------Our story page */
+/* -------------------------------------------------------------------Our story page */
 
 .our-story-container {
     padding-bottom: 90px;
@@ -315,7 +319,7 @@ footer {
     padding: 40px;
 }
 
-/* ------------------------------------------------------Margins, Padding, Text */
+/* ------------------------------------------------------Margins, Padding, Text (referenced from CI mini project 4: beyond Bootstrap 4) */
 
 h1,
 h2,
@@ -528,7 +532,7 @@ h4 {
 }
 
 
-/* ------------------------------------------------------Forms*/
+/* ------------------------------------------------------Forms general styling*/
 
 input,
 textarea {
