@@ -5,16 +5,19 @@
 This repository contains all the necessary information and code for the website of Hugo's Bistro, a fictional French restaurant located in Cardiff. The website aims to provide visitors with a positive online experience that encourages them to make a reservation and / or find information about the restaurant. 
 
 ## Table of Contents
-### - Business Goals
-### - User Goals
-### - 5 Planes of UX
-### - User Stories
+[Business-Goals] (##business-goals)
+[5-Planes-of-UX] (#5-planes-of-ux)
+[User-Stories] (##user-stories)
+[Features] (##features)
+[Technology] (##technology)
+
 ### - New Users
 ### - Returning Users
 ### - Frequent Users
 
+## Business Goals
 
-## Hugo's Bistro website is designed to achieve the following business objectives:
+### Hugo's Bistro website is designed to achieve the following business objectives:
 
 * Promote Hugo's Bistro as a premier French restaurant in Cardiff.
 * Provide an overview of the restaurant's menus, including its French culinary specialties.
@@ -27,7 +30,7 @@ This repository contains all the necessary information and code for the website 
 * For new users to understand who we are and what we do.
 
 
-## Hugo's Bistro website aims to fulfil the following user goals:
+### Hugo's Bistro website aims to fulfil the following user goals:
 
 * Discover information about Hugo's Bistro, such as its location, opening hours, and contact details.
 * Explore the menu and gain insights into the variety of French dishes available.
@@ -37,6 +40,8 @@ This repository contains all the necessary information and code for the website 
 * To navigate through the website with ease.
 * To look at the food and drink menus on offer with easy accessibility.
 * To find contact information about the website.
+
+
 
 
 ## 5 Planes of UX
@@ -52,6 +57,8 @@ To ensure a comprehensive and seamless user experience, the Hugo's Bistro websit
 **Skeleton:** The website's layout, typography, and visual elements are designed to create an aesthetically pleasing and harmonious interface. It utilises a responsive design to ensure optimal viewing experiences across various devices and screen sizes.
 
 **Surface:** The website utilises appealing visuals, captivating imagery, and high-quality content to evoke the relaxed ambiance and culinary excellence of Hugo's Bistro. The colour scheme, typography, and overall style align with the brand identity - traditional, high quality and in a relaxing setting.
+
+
 
 
 ## User Stories
@@ -76,6 +83,8 @@ As a frequent user of the Hugo's Bistro website:
 - I want to check if there are any new additions or changes to the menu.
 
 
+
+
 ## Features 
 
 Each page consists of the navigation bar fixed to the top of each page to help visitors click through the site with ease. You will also find the footer at the bottom of each page that includes form to sign up to the newsletter, opening hours and links to Hugo’s social media pages.
@@ -94,7 +103,7 @@ You also find three of images that highlight one of the locations where our ingr
 ### Menus Page
 The Menus section of Hugo's Bistro website is designed to showcase our diverse range of culinary offerings. With enticing imagery and easy access to each menu, this section allows visitors to explore and discover the delectable options available. Here are the key features of the Menus section:
 Images with Overlay Text
-The Menus section features four captivating images – lunch, dinner, specials, and drinks. Each image highlights a specific aspect of the menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
+The Menus section features four captivating images - lunch, dinner, specials, and drinks. Each image highlights a specific aspect of the menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
 
 ### Reservation Page 
 Features a user-friendly booking form where visitors can fill in the required details to make a reservation. Each section is required to be filled out correctly to make a booking. 
@@ -105,8 +114,27 @@ JavaScript Dependency for Time Input
 Please note that the time input on the booking form currently requires JavaScript to function correctly which I have not covered in the course yet.
 
 ### Find Us Page 
-Features the email, contact number and address of the Hugo’s Bistro
+Features the email, contact number and address for Hugos Bistro
 
 
+### Features to be included in the future:
 
+- Google maps to be included on the find us page for the location of Hugos Bistro
+- Time input on the reservation form requires JavaScript to allow booking times between 12 and 22:00 every 15 minutes.
+- Captcha to set to deter spam for both the newsletter and reservation form. Javascript required. 
+- To include more images of the decor, service and drinks as a carousel on the homepage.
+
+
+## Technology 
+
+**Language:** HTML, CSS
+**Google Fonts:** Montserrat for headings and Playfair Display for content
+**Font Awesome:** For the social media icons in the footer
+**Bootstrap 5:**  Used for the grid system in aid of responsive design for the navigation bar, footer and sections in each page.
+
+### Color used
+
+**Headings:** Dark olive green #556B2F
+**Nav bar and footer background:** Off white #fafafa 
+**Content:** Default color
 
