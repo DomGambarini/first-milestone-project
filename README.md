@@ -5,11 +5,11 @@
 This repository contains all the necessary information and code for the website of Hugo's Bistro, a fictional French restaurant located in Cardiff. The website aims to provide visitors with a positive online experience that encourages them to make a reservation and / or find information about the restaurant. 
 
 ## Table of Contents
-[Business-Goals] (##business-goals)
-[5-Planes-of-UX] (#5-planes-of-ux)
-[User-Stories] (##user-stories)
-[Features] (##features)
-[Technology] (##technology)
+- [Business-Goals] (#business-goals)
+- [5-Planes-of-UX] (#5-planes-of-ux)
+- [User-Stories] (#user-stories)
+- [Features] (#features)
+- [Technology] (#technology)
 
 ### - New Users
 ### - Returning Users
