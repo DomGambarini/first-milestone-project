@@ -1,39 +1,112 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#First Milestone Project: Hugo's Bistro
 
-Welcome User,
+##Introduction
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This repository contains all the necessary information and code for the website of Hugo's Bistro, a  fictional French restaurant located in Cardiff. The website aims to provide visitors with a positive online experience that encourages them to make a reservation and / or find information about the restaurant. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+##Table of Contents
+###Business Goals
+###User Goals
+###5 Planes of UX
+###User Stories
+###New Users
+###Returning Users
+###Frequent Users
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+##Hugo's Bistro website is designed to achieve the following business objectives:
 
-`python3 -m http.server`
+*Promote Hugo's Bistro as a premier French restaurant in Cardiff.
+*Provide an overview of the restaurant's menus, including its French culinary specialties.
+*Encourage visitors to make reservations by showcasing the restaurant's incredible food.
+*Establish an online presence to increase brand visibility and engage with the local community.
+*To strengthen the brand identity. The restaurant has been running since 1985.
+*To increase sales by more users booking through the website
+*For the website to create an emotional trigger with users and to make a booking.
+*A user friendly and aesthetically beautiful website to reflect the quality food and service that Hugo’s Bistro offers.
+*For new users to understand who we are and what we do.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The Hugo's Bistro website aims to fulfil the following user goals:
 
-`http_server`
+*Discover information about Hugo's Bistro, such as its location, opening hours, and contact details.
+*Explore the menu and gain insights into the variety of French dishes available.
+*Make reservations conveniently through an intuitive online booking system.
+*Stay informed about upcoming events, special promotions, and seasonal menus by joining the newsletter.
+*Experience the relaxed ambience of Hugo's Bistro through visually appealing imagery and engaging content.
+*To navigate through the website with ease.
+*To look at the food and drink menus on offer with easy accessibility.
+*To find contact information about the website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+##5 Planes of UX
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+To ensure a comprehensive and seamless user experience, the Hugo's Bistro website focuses on the following five planes of UX:
 
-To log into the Heroku toolbelt CLI:
+Strategy: The website aligns with the business goals of promoting Hugo's Bistro and engaging users effectively. It encompasses a user-centered design approach to meet the needs of visitors and drive bookings. The aim is to create a website that is visually appealing, and users instinctively recognise what Hugo's Bistro is - relaxed and a good quality French establishment.  
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Scope: The website provides essential information about Hugo's Bistro, including its menus, our story page, reservation form and contact information. It emphasises simplicity and clarity to ensure visitors can easily find the desired information.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Structure: The website's navigation is intuitive and well-organised, enabling users to browse different sections effortlessly. It employs a clear hierarchy, logical grouping, and consistent labelling for easy exploration.
 
----
+Skeleton: The website's layout, typography, and visual elements are designed to create an aesthetically pleasing and harmonious interface. It utilises a responsive design to ensure optimal viewing experiences across various devices and screen sizes.
 
-Happy coding!
+Surface: The website utilises appealing visuals, captivating imagery, and high-quality content to evoke the relaxed ambiance and culinary excellence of Hugo's Bistro. The colour scheme, typography, and overall style align with the brand identity - traditional, high quality and in a relaxing setting.
+
+
+##User Stories
+
+###New Users
+As a new user of the Hugo's Bistro website:
+I want to learn about the restaurant's concept, history, and values.
+I want to explore the menu to see the variety of French dishes offered.
+I want to find the restaurant's contact information, opening hours, and location.
+I want to make a reservation.
+
+###Returning Users
+As a returning user of the Hugo's Bistro website:
+I want to check if there are any new additions or changes to the menu.
+I want to quickly access the online reservation system to book a table.
+I want to find the restaurant's phone number or email.
+
+###Frequent Users
+As a frequent user of the Hugo's Bistro website:
+I want to easily access the website on my mobile device or tablet.
+I want to sign up for a newsletter to receive updates on new menus and events.
+I want to check if there are any new additions or changes to the menu.
+
+
+##Features 
+
+Each page consists of the navigation bar fixed to the top of each page to help visitors click through the site with ease. You will also find the footer at the bottom of each page that includes form to sign up to the newsletter, opening hours and links to Hugo’s social media pages.
+
+###Homepage
+The homepage of the Hugo's Bistro website includes the following features to enhance user engagement and provide a captivating experience:
+A visually appealing hero's image is featured on the homepage. This image captures the user’s attention and entices them to explore more. There’s also a prominent call-to-action button is strategically placed on the hero image, encouraging users to make reservations directly. 
+Below the hero image displays positive customer reviews to show the restaurant's excellent reputation and customer satisfaction. These reviews serve as social proof and encourage visitors to explore further.
+Below the review section is a small snippet from the opening paragraph of the ‘Our Story’ page with a call-to-action button. 
+
+###Our Story Page
+The Our Story page of Hugo's Bistro provides a content about the heritage and culinary inspiration behind the restaurant. 
+You also find three of images that highlight one of the locations where our ingredients are sourced, how they’re cooked and served emphasising the of quality produce and ethos of the restaurant.
+
+
+###Menus Page
+The Menus section of Hugo's Bistro website is designed to showcase our diverse range of culinary offerings. With enticing imagery and easy access to each menu, this section allows visitors to explore and discover the delectable options available. Here are the key features of the Menus section:
+Images with Overlay Text
+The Menus section features four captivating images – lunch, dinner, specials, and drinks. Each image highlights a specific aspect of the menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
+
+###Reservation Page 
+Features a user-friendly booking form where visitors can fill in the required details to make a reservation. Each section is required to be filled out correctly to make a booking. 
+The form includes the following sections:
+name, time, date, email, phone number, number of Guests and allergy / dietary requirement text area with a book now button below.
+
+JavaScript Dependency for Time Input
+Please note that the time input on the booking form currently requires JavaScript to function correctly which I have not covered in the course yet.
+
+###Find Us Page 
+features the email, contact number and address of the Hugo’s Bistro
+
+
+
+
