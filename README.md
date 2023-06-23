@@ -132,10 +132,28 @@ Features the email, contact number and address for Hugos Bistro
 
 ### Color used
 
-- **Headings:** Dark olive green #556B2F
+- **Headings:** Dark olive green #455828 
 - **Nav bar and footer background:** Off white #fafafa 
 - **Content:** black
 
 
+## Testing
 
+Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validatior and W3C CSS Validator.
+
+### Page Speed Insights
+
+#### Mobile:
+![image of Page Speed Insights mobile test] [documents/test-images/pagespeed-insights-mobile.png]
+
+#### Desktop:
+![image of Page Speed Insights desktop test] [documents/test-images/pagespeed-insights-desktop.png]
+
+### Contrast Checker:
+
+I had to change the contrast of the colour green used for the heading to become slighly darker from #556B2F to #455828 in order to pass.
+
+![image of contrast checker] [contrast-checker.png]
+
+![image of contrast checker result] [contrast-checker-pass-png]
 

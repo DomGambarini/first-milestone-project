@@ -19,12 +19,12 @@
 }
 
 .navbar {
-    background-color: #556B2F;
+    background-color: #455828;
 
 }
 
 #logo {
-    color: #556B2F;
+    color: #455828;
     text-transform: uppercase;
 
 }
@@ -97,7 +97,7 @@
     border-radius: 6px;
     opacity: 0.6;
     transition: 0.3s;
-    background-color: #556B2F;
+    background-color: #455828;
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -116,7 +116,7 @@
 
 
 #testimonials {
-    color: #556B2F;
+    color: #455828;
     padding-bottom: 10px;
     font-family: "Montserrat", sans-serif;
 
@@ -171,7 +171,7 @@
     border-radius: 6px;
     opacity: 0.6;
     transition: 0.3s;
-    background-color: #556B2F;
+    background-color: #455828;
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -193,7 +193,7 @@ footer {
     min-height: 10px;
     margin: 0;
     padding: 20px;
-    color: #556B2F;
+    color: #455828;
     text-align: center;
     overflow: auto;
     margin-top: 150px;
@@ -220,7 +220,7 @@ footer {
     opacity: 0.6;
     transition: 0.3s;
     display: inline-block;
-    background-color: #556B2F;
+    background-color: #455828;
     text-decoration: none;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
@@ -256,7 +256,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #556B2F;
+    background: #455828;
 }
 
 #social-heading,
@@ -278,7 +278,7 @@ footer {
 
 #our-story-heading {
     font-family: "Montserrat", sans-serif;
-    color: #556B2F;
+    color: #455828;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
@@ -329,7 +329,7 @@ h4 {
 }
 
 .general-sub {
-    color: #556B2F;
+    color: #455828;
     font-family: "Montserrat", sans-serif;
 
 }
@@ -467,7 +467,7 @@ h4 {
 
 #menus-uppercase {
     text-transform: uppercase;
-    color: #556B2F;
+    color: #455828;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 100px;
 }
@@ -480,7 +480,7 @@ h4 {
     border-radius: 6px;
     opacity: 0.6;
     transition: 0.3s;
-    background-color: #556B2F;
+    background-color: #455828;
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -500,12 +500,12 @@ h4 {
 #reservation-heading {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    color: #556B2F;
+    color: #455828;
 }
 
 #form-content-layout {
     font-family: "Playfair Display", sans-serif;
-    color: #556B2F;
+    color: #455828;
 }
 
 /* ------------------------------------------------------Reservations*/
@@ -527,7 +527,7 @@ h4 {
 #find-us-heading {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    color: #556B2F;
+    color: #455828;
     padding-top: 50px;
 }
 
