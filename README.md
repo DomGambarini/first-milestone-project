@@ -157,3 +157,57 @@ I had to change the contrast of the colour green used for the heading to become 
 
 ![image of contrast checker result] [contrast-checker-pass-png]
 
+### Manual Testing of User Actions
+
+**Feature** | **Action** | **Behaviuor** | **Result**
+--- | --- | --- | --- 
+Navbar | click logo | navigates to homepage | pass
+Navbar | click Our Story | navigates to Our Story | pass
+Navbar | click Menus | navigates to menus | pass
+Navbar | click Reservations | navigates to Reservations | pass
+Navbar | click Find Us | navigates to Find Us | pass
+Mobile Menu | click hamburger icon | displays menu items | pass
+Mobile Menu | click hamburger icon | collapses menu items | pass
+Homepage | click call to action button: BOOK NOW | navigates to Reservations | pass
+Homepage | click call to action button: READ MORE| navigates to Our Story | pass
+Footer | Clicked Newsletter: SIGN ME UP! | pop-up: "please fill in this field"| pass
+Footer | enetered details: clicked SIGN ME UP! | data posts to https://formdump.codeinstitute.net | pass
+Footer | Hover cursor on each social icon | colour trasition to green | pass
+Footer | click social Facebook icon | navigates on seperate tab to Facebook | pass
+Footer | click social Twitter icon | navigates on seperate tab to Twitter | pass
+Footer | click social Pinterest icon | navigates on seperate tab to Pinterest | pass
+Footer | click social Instagram icon | navigates on seperate tab to Instagram | pass
+Menus page | click Lunch menu | cursor pointer active and opens on seperate tab | pass
+Menus page | click Dinner menu | cursor pointer active and opens on seperate tab | pass
+Menus page | click Specials menu | cursor pointer active and opens on seperate tab | pass
+Menus page | click Drinks menu | cursor pointer active and opens on seperate tab | pass
+Reservations page | Date: clicked date icon | displays calander | pass
+Reservations page | Date: entered date manually | displays date entered | pass
+Reservations page | Time: clicked time icon | displays time | pass
+Reservations page | Time: entered time manually | displays time entered | pass
+Reservations page | Name: entered text | input field displays text | pass
+Reservations page | Email: not data entry | input field displays text | pass
+Reservations page | Phone: entered numbers | input field displays numbers | pass
+Reservations page | Clicked "No. of Guests" drop down | displays drop down | pass
+Reservations page | Typed in Text area | Displays text | pass
+Reservations page | Clicked BOOK NOW button | pop-up: "please fill in this field" excluding text area | pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
