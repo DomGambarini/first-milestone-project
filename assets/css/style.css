@@ -508,6 +508,11 @@ h4 {
     color: #455828;
 }
 
+.form-label {
+    padding-top: 20px;
+}
+
+
 /* ------------------------------------------------------Reservations*/
 
 #find-us-page {
@@ -531,6 +536,10 @@ h4 {
     padding-top: 50px;
 }
 
+.find-us-padding {
+    padding-bottom: 50px;
+}
+
 
 /* ------------------------------------------------------Forms general styling*/
 
@@ -544,5 +553,3 @@ textarea {
 textarea {
     height: 100px;
 }
-
-

@@ -161,38 +161,44 @@ I had to change the contrast of the colour green used for the heading to become 
 
 ### Manual Testing of User Actions
 
-| **Feature**       | **Action**                             | **Behaviuor**                                           | **Result** |
-| ----------------- | -------------------------------------- | ------------------------------------------------------- | ---------- |
-| Navbar            | click logo                             | navigates to homepage                                   | pass       |
-| Navbar            | click Our Story                        | navigates to Our Story                                  | pass       |
-| Navbar            | click Menus                            | navigates to menus                                      | pass       |
-| Navbar            | click Reservations                     | navigates to Reservations                               | pass       |
-| Navbar            | click Find Us                          | navigates to Find Us                                    | pass       |
-| Mobile Menu       | click hamburger icon                   | displays menu items                                     | pass       |
-| Mobile Menu       | click hamburger icon                   | collapses menu items                                    | pass       |
-| Homepage          | click call to action button: BOOK NOW  | navigates to Reservations                               | pass       |
-| Homepage          | click call to action button: READ MORE | navigates to Our Story                                  | pass       |
-| Footer            | Clicked Newsletter: SIGN ME UP!        | pop-up: "please fill in this field"                     | pass       |
-| Footer            | enetered details: clicked SIGN ME UP!  | data posts to https://formdump.codeinstitute.net        | pass       |
-| Footer            | Hover cursor on each social icon       | colour trasition to green                               | pass       |
-| Footer            | click social Facebook icon             | navigates on seperate tab to Facebook                   | pass       |
-| Footer            | click social Twitter icon              | navigates on seperate tab to Twitter                    | pass       |
-| Footer            | click social Pinterest icon            | navigates on seperate tab to Pinterest                  | pass       |
-| Footer            | click social Instagram icon            | navigates on seperate tab to Instagram                  | pass       |
-| Menus page        | click Lunch menu                       | cursor pointer active and opens on seperate tab         | pass       |
-| Menus page        | click Dinner menu                      | cursor pointer active and opens on seperate tab         | pass       |
-| Menus page        | click Specials menu                    | cursor pointer active and opens on seperate tab         | pass       |
-| Menus page        | click Drinks menu                      | cursor pointer active and opens on seperate tab         | pass       |
-| Reservations page | Date: clicked date icon                | displays calander                                       | pass       |
-| Reservations page | Date: entered date manually            | displays date entered                                   | pass       |
-| Reservations page | Time: clicked time icon                | displays time                                           | pass       |
-| Reservations page | Time: entered time manually            | displays time entered                                   | pass       |
-| Reservations page | Name: entered text                     | input field displays text                               | pass       |
-| Reservations page | Email: not data entry                  | input field displays text                               | pass       |
-| Reservations page | Phone: entered numbers                 | input field displays numbers                            | pass       |
-| Reservations page | Clicked "No. of Guests" drop down      | displays drop down                                      | pass       |
-| Reservations page | Typed in Text area                     | Displays text                                           | pass       |
-| Reservations page | Clicked BOOK NOW button                | pop-up: "please fill in this field" excluding text area | pass       |
+| **Feature**       | **Action**                                                       | **Behaviuor**                                                           | **Result** |
+| ----------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- |
+| Navbar            | click logo                                                       | navigates to homepage                                                   | pass       |
+| Navbar            | click Our Story                                                  | navigates to Our Story                                                  | pass       |
+| Navbar            | click Menus                                                      | navigates to menus                                                      | pass       |
+| Navbar            | click Reservations                                               | navigates to Reservations                                               | pass       |
+| Navbar            | click Find Us                                                    | navigates to Find Us                                                    | pass       |
+| Mobile Menu       | click hamburger icon                                             | displays menu items                                                     | pass       |
+| Mobile Menu       | click hamburger icon                                             | collapses menu items                                                    | pass       |
+| Homepage          | click call to action button: BOOK NOW                            | navigates to Reservations                                               | pass       |
+| Homepage          | click call to action button: READ MORE                           | navigates to Our Story                                                  | pass       |
+| Footer            | Clicked Newsletter: SIGN ME UP!                                  | pop-up: "please fill in this field"                                     | pass       |
+| Footer            | enetered details: clicked SIGN ME UP!                            | data post's to https://formdump.codeinstitute.net                       | pass       |
+| Footer            | Hover cursor on each social icon                                 | colour trasition to green                                               | pass       |
+| Footer            | click social Facebook icon                                       | navigates on seperate tab to Facebook                                   | pass       |
+| Footer            | click social Twitter icon                                        | navigates on seperate tab to Twitter                                    | pass       |
+| Footer            | click social Pinterest icon                                      | navigates on seperate tab to Pinterest                                  | pass       |
+| Footer            | click social Instagram icon                                      | navigates on seperate tab to Instagram                                  | pass       |
+| Menus page        | click Lunch menu                                                 | cursor pointer active and opens on seperate tab                         | pass       |
+| Menus page        | click Dinner menu                                                | cursor pointer active and opens on seperate tab                         | pass       |
+| Menus page        | click Specials menu                                              | cursor pointer active and opens on seperate tab                         | pass       |
+| Menus page        | click Drinks menu                                                | cursor pointer active and opens on seperate tab                         | pass       |
+| Reservations page | Date: clicked date icon                                          | displays calander                                                       | pass       |
+| Reservations page | Date: entered date manually                                      | displays date entered                                                   | pass       |
+| Reservations page | Time: clicked time icon                                          | displays time                                                           | pass       |
+| Reservations page | Time: entered time manually                                      | displays time entered                                                   | pass       |
+| Reservations page | Name: entered text                                               | input field displays text                                               | pass       |
+| Reservations page | Email: entered email address                                     | input field displays email address (form works with email address only) | pass       |
+| Reservations page | Phone: entered numbers                                           | input field displays numbers                                            | pass       |
+| Reservations page | Clicked 'No. of Guests' drop down                                | displays drop down                                                      | pass       |
+| Reservations page | Typed in Text area                                               | Displays text                                                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'date' field          | pop-up: "please fill in this field"                                     | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'time' field          | pop-up: "please fill in this field" excluding                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'name' field          | pop-up: "please fill in this field" excluding                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'email' field         | pop-up: "please fill in this field" excluding                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'phone' field         | pop-up: "please fill in this field" excluding                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in 'no. of guests' field | pop-up: "please fill in this field" excluding                           | pass       |
+| Reservations page | Clicked BOOK NOW button without filling in text area field       | data post's to https://formdump.codeinstitute.net                       | pass       |
 
 ### Devices and Browsers Used for Testing
 
@@ -219,3 +225,55 @@ Iphone 8
 - Hamburger icon in the navbar will not align to the right of the page without nearly overlapping the menu list.
 - Reservations: time input displays all times available. It would be more user friendly to offer booking slots available every 15 minutes between 12 and 22:00.
 - Reservations: phone input field allows you to enter text and numbers. It would be better to allow number entry only.
+
+
+## Deployment
+
+### First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
+
+#### Create a Code Anywhere account:
+
+1. If you don't already have one, go to the Code Anywhere website https://codeanywhere.com/signup and create a new account.
+2. Enter first and last name.
+3. Enter Email
+4. Enter new password
+
+#### Create a GitHub account: 
+
+1. If you don't already have one, go to the GitHub website https://github.com/ and create a new account.
+2. Click sign up
+3. Enter email address
+4. Enter username
+5. Create password
+6. Verify your account by solving the puzzels
+7. Click create account
+8. Verify your account in using your sign-up email
+
+
+To access the code to this project there are two options: **Cloning** and **Forking**.  
+
+Cloning: code will be linked to your repo and any pushes they make will come to the original developer for approval. 
+
+##### Here is how to clone code:
+
+1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
+2. Above the list of files, click <> **Code**.
+3. Copy the URL for the repository.
+4. In a seperate tab, open Code Anywhere
+5. Create a new workspace
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+Forking: refers to creating a personal copy of someone else's repository under your own GitHub account. This copy is stored in your account and allows you to freely experiment with and make changes to the code without affecting the original repository. If I make changes to the original repo you will be informed and have the option to pull.
+
+
+##### Here is how to fork code:
+
+1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
+2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
+3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
+4. At this point, you have successfully forked the repository, and you can start working with the code.
+
+
+
+Any changes made and pushed to the main branch will automatically show up on the site.

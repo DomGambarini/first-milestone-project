@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
-    
+
 
 
     <title>Hugo's Bistro</title>
@@ -24,28 +24,28 @@
 <body>
     <header>
         <!-- Navigation idea taken from youtube video: Navbar boostrap - Adrian Twarog-->
-    
-    
+
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom" id="menuitem-style">
             <div class="container">
-    
+
                 <a href="index.html" class="navbar-brand">
-    
+
                     <div id="logo">
                         <h1 id="d-inline-block align-top custom-color">Hugo's Bistro</h1>
                     </div>
                 </a>
-    
+
                 <!-- Hamburger Icon -->
-    
+
                 <button id="nav-hamburger-align" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-color">
+                    class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation" class="navbar-color">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <!-- Navbar menu items -->
-    
+
                 <div class="menu-navbar-align navbar-color">
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
@@ -71,11 +71,11 @@
                             </li>
                         </ul>
                     </div>
-    
+
                 </div>
             </div>
         </nav>
-    
+
     </header>
 
 
@@ -86,9 +86,9 @@
                 <h2 id="find-us-heading">Find Us</h2>
                 <br>
             </div>
-            <div class="row" id="find-us-layout">
 
-                <div class="col-sm-4">
+            <div class="row" id="find-us-layout">
+                <div class="col-sm-4 find-us-padding">
                     <span class="find-us-text">
                         <h5 class="general-sub">Address</h5>
                         <p>Hugo's Bistro</p>
@@ -96,16 +96,14 @@
                         <p>Cardiff</p>
                         <p>CF11 7DH</p>
                     </span>
-
                 </div>
 
-
-                <div class="col-sm-4">
+                <div class="col-sm-4 find-us-padding">
                     <h5 class="general-sub">Phone</h5>
                     <span class="find-us-text">01222 555666</span>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 find-us-padding">
                     <h5 class="general-sub">Email</h5>
                     <span class="find-us-text">hugosbistro@restaurant.co.uk</span>
                 </div>
@@ -122,73 +120,73 @@
 
 
 
-<footer class="container-fluid">
-    <!-- Newsletter -->
-    <div class="row" class="footer-details">
-        <div class="col-sm-4">
-            <h5 class="general-sub" id="footer-heading">Join Our Newsletter</h5>
+    <footer class="container-fluid">
+        <!-- Newsletter -->
+        <div class="row" class="footer-details">
+            <div class="col-sm-4">
+                <h5 class="general-sub" id="footer-heading">Join Our Newsletter</h5>
 
-            <form action="https://formdump.codeinstitute.net" method="post">
-                <div>
-                    <label for="name-field" id="namefield">Name</label>
-                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-                </div>
-                <div>
-                    <label for="email-field" id="emailfield">Email</label>
-                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                </div>
-                <button type="submit" id="signup-button"><strong>Sign Me Up!</strong></button>
+                <form action="https://formdump.codeinstitute.net" method="post">
+                    <div>
+                        <label for="name-field" id="namefield">Name</label>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <label for="email-field" id="emailfield">Email</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <button type="submit" id="signup-button"><strong>Sign Me Up!</strong></button>
 
-            </form>
-        </div>
-
-        <!-- Opening Hours -->
-
-        <div class="col-sm-4">
-            <h5 class="general-sub" id="openinghours-heading">Opening Hours</h5>
-
-            <div id="openinghours">
-                <P>Sunday to Thursday 12 to 22:00</P>
-                <P>Friday and Saturday 12 to 23:00</P>
+                </form>
             </div>
 
+            <!-- Opening Hours -->
+
+            <div class="col-sm-4">
+                <h5 class="general-sub" id="openinghours-heading">Opening Hours</h5>
+
+                <div id="openinghours">
+                    <P>Sunday to Thursday 12 to 22:00</P>
+                    <P>Friday and Saturday 12 to 23:00</P>
+                </div>
+
+            </div>
+
+            <!-- Social Icons (taken from Code Institute module: Mini Project with Bootstrap)-->
+
+            <div class="col-sm-4">
+                <h5 class="general-sub" id="social-heading">Social</h5>
+
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.twitter.com">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.com">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-
-        <!-- Social Icons (taken from Code Institute module: Mini Project with Bootstrap)-->
-
-        <div class="col-sm-4">
-            <h5 class="general-sub" id="social-heading">Social</h5>
-
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.facebook.com">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.twitter.com">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.pinterest.com">
-                        <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.instagram.com">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 
 
