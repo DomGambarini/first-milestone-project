@@ -252,7 +252,7 @@ Iphone 8
 
 To access the code to this project there are two options: **Cloning** and **Forking**.  
 
-Cloning: code will be linked to your repo and any pushes they make will come to the original developer for approval. 
+Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval. 
 
 ##### Here is how to clone code:
 
