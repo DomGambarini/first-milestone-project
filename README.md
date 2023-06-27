@@ -12,7 +12,7 @@ This repository contains all the necessary information and code for the website 
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
--
+- [Deployment](#deployment)
 
 ## Business Goals
 
@@ -145,19 +145,19 @@ Both CSS and HTML code was validated and showed no signs of errors with W3C Mark
 
 #### Mobile:
 
-![image of Page Speed Insights mobile test] [documents/test-images/pagespeed-insights-mobile.png]
+![image of Page Speed Insights mobile test](documents/test-images/pagespeed-insights-mobile.png)
 
 #### Desktop:
 
-![image of Page Speed Insights desktop test] [documents/test-images/pagespeed-insights-desktop.png]
+![image of Page Speed Insights desktop test](documents/test-images/pagespeed-insights-desktop.png)
 
 ### Contrast Checker:
 
 I had to change the contrast of the colour green used for the heading to become slighly darker from #556B2F to #455828 in order to pass.
 
-![image of contrast checker] [contrast-checker.png]
+![image of contrast checker](contrast-checker.png)
 
-![image of contrast checker result] [contrast-checker-pass-png]
+![image of contrast checker result](contrast-checker-pass-png)
 
 ### Manual Testing of User Actions
 
@@ -254,20 +254,20 @@ To access the code to this project there are two options: **Cloning** and **Fork
 
 Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval. 
 
-##### Here is how to clone code:
+#### Here is how to clone code:
 
 1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
 2. Above the list of files, click <> **Code**.
 3. Copy the URL for the repository.
 4. In a seperate tab, open Code Anywhere
 5. Create a new workspace
-6. Type git clone, and then paste the URL you copied earlier.
+6. Type ' git clone ', and then paste the URL you copied earlier.
 7. Press Enter to create your local clone.
 
 Forking: refers to creating a personal copy of someone else's repository under your own GitHub account. This copy is stored in your account and allows you to freely experiment with and make changes to the code without affecting the original repository. If I make changes to the original repo you will be informed and have the option to pull.
 
 
-##### Here is how to fork code:
+#### Here is how to fork code:
 
 1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
 2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
