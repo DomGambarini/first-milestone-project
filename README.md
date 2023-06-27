@@ -119,7 +119,7 @@ Features the email, contact number and address for Hugos Bistro
 
 - The location of the restaurant using Google maps on the find us page.
 - Time input on the reservation form requires JavaScript to allow booking times between 12 and 22:00 every 15 minutes.
-- Captcha to deter spam for both the newsletter and reservation form. Javascript required.
+- Captcha to deter spam for both the newsletter and reservation form. JavaScript required.
 - To include more images of the decor, service and drinks as a carousel on the homepage.
 
 ## Technology
@@ -139,29 +139,29 @@ Features the email, contact number and address for Hugos Bistro
 
 ## Testing
 
-Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validatior and W3C CSS Validator.
+Both CSS and HTML code was validated and showed no signs of errors with W3C Markup validator and W3C CSS Validator.
 
 ### Page Speed Insights
 
 #### Mobile:
 
-![image of Page Speed Insights mobile test](documents/test-images/pagespeed-insights-mobile.png)
+![image of Page Speed Insights mobile test](documentation/test-images/pagespeed-insights-mobile.png)
 
 #### Desktop:
 
-![image of Page Speed Insights desktop test](documents/test-images/pagespeed-insights-desktop.png)
+![image of Page Speed Insights desktop test](documentation/test-images/pagespeed-insights-desktop.png)
 
 ### Contrast Checker:
 
-I had to change the contrast of the colour green used for the heading to become slighly darker from #556B2F to #455828 in order to pass.
+I had to change the contrast of the colour green used for the heading to become slightly darker from #556B2F to #455828 in order to pass.
 
-![image of contrast checker](contrast-checker.png)
+![image of contrast checker](documentation/test-images/contrast-checker.png)
 
-![image of contrast checker result](contrast-checker-pass-png)
+![image of contrast checker result](documentation/test-images/contrast-checker-pass.png)
 
 ### Manual Testing of User Actions
 
-| **Feature**       | **Action**                                                       | **Behaviuor**                                                           | **Result** |
+| **Feature**       | **Action**                                                       | **Behaviour**                                                           | **Result** |
 | ----------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- |
 | Navbar            | click logo                                                       | navigates to homepage                                                   | pass       |
 | Navbar            | click Our Story                                                  | navigates to Our Story                                                  | pass       |
@@ -173,17 +173,17 @@ I had to change the contrast of the colour green used for the heading to become 
 | Homepage          | click call to action button: BOOK NOW                            | navigates to Reservations                                               | pass       |
 | Homepage          | click call to action button: READ MORE                           | navigates to Our Story                                                  | pass       |
 | Footer            | Clicked Newsletter: SIGN ME UP!                                  | pop-up: "please fill in this field"                                     | pass       |
-| Footer            | enetered details: clicked SIGN ME UP!                            | data post's to https://formdump.codeinstitute.net                       | pass       |
+| Footer            | entered details: clicked SIGN ME UP!                            | data post's to https://formdump.codeinstitute.net                       | pass       |
 | Footer            | Hover cursor on each social icon                                 | colour trasition to green                                               | pass       |
-| Footer            | click social Facebook icon                                       | navigates on seperate tab to Facebook                                   | pass       |
-| Footer            | click social Twitter icon                                        | navigates on seperate tab to Twitter                                    | pass       |
-| Footer            | click social Pinterest icon                                      | navigates on seperate tab to Pinterest                                  | pass       |
-| Footer            | click social Instagram icon                                      | navigates on seperate tab to Instagram                                  | pass       |
-| Menus page        | click Lunch menu                                                 | cursor pointer active and opens on seperate tab                         | pass       |
-| Menus page        | click Dinner menu                                                | cursor pointer active and opens on seperate tab                         | pass       |
-| Menus page        | click Specials menu                                              | cursor pointer active and opens on seperate tab                         | pass       |
-| Menus page        | click Drinks menu                                                | cursor pointer active and opens on seperate tab                         | pass       |
-| Reservations page | Date: clicked date icon                                          | displays calander                                                       | pass       |
+| Footer            | click social Facebook icon                                       | navigates on separate tab to Facebook                                   | pass       |
+| Footer            | click social Twitter icon                                        | navigates on separate tab to Twitter                                    | pass       |
+| Footer            | click social Pinterest icon                                      | navigates on separate tab to Pinterest                                  | pass       |
+| Footer            | click social Instagram icon                                      | navigates on separate tab to Instagram                                  | pass       |
+| Menus page        | click Lunch menu                                                 | cursor pointer active and opens on separate tab                         | pass       |
+| Menus page        | click Dinner menu                                                | cursor pointer active and opens on separate tab                         | pass       |
+| Menus page        | click Specials menu                                              | cursor pointer active and opens on separate tab                         | pass       |
+| Menus page        | click Drinks menu                                                | cursor pointer active and opens on separate tab                         | pass       |
+| Reservations page | Date: clicked date icon                                          | displays calender                                                       | pass       |
 | Reservations page | Date: entered date manually                                      | displays date entered                                                   | pass       |
 | Reservations page | Time: clicked time icon                                          | displays time                                                           | pass       |
 | Reservations page | Time: entered time manually                                      | displays time entered                                                   | pass       |
@@ -245,7 +245,7 @@ Iphone 8
 3. Enter email address
 4. Enter username
 5. Create password
-6. Verify your account by solving the puzzels
+6. Verify your account by solving the puzzles
 7. Click create account
 8. Verify your account in using your sign-up email
 
@@ -259,7 +259,7 @@ Cloning: code will be linked to your repo and any pushes you make will go to the
 1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
 2. Above the list of files, click <> **Code**.
 3. Copy the URL for the repository.
-4. In a seperate tab, open Code Anywhere
+4. In a separate tab, open Code Anywhere
 5. Create a new workspace
 6. Type ' git clone ', and then paste the URL you copied earlier.
 7. Press Enter to create your local clone.
@@ -277,3 +277,15 @@ Forking: refers to creating a personal copy of someone else's repository under y
 
 
 Any changes made and pushed to the main branch will automatically show up on the site.
+
+
+## Credits
+
+**Code:**
+- Navigation Menu: Idea taken from [Adrian Twarog](https://www.youtube.com/watch?v=qNifU_aQRio&t=387s) Adrian Twarog. Edited for my own requirements. 
+- Reservation form: Idea taken from [The Net Ninja](https://www.youtube.com/watch?v=dKVX22GR7zQ). Heavily edited for my own design. 
+- Social links in footer. Taken from Code Institute [Putting it all Together: Mini Project with Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/). Adjusted for my own design. 
+
+## References
+
+- All images taken from [unsplash.com](https://unsplash.com/)
