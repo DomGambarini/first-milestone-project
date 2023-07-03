@@ -15,7 +15,7 @@ This repository contains all the necessary information and code for the website 
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [References](#references)
- 
+
 ## Business Goals
 
 ### Hugo's Bistro website is designed to achieve the following business objectives:
@@ -294,7 +294,7 @@ Any changes made and pushed to the main branch will automatically show up on the
 - Our Story Image on Homepage, [Tom Sekula](https://unsplash.com/photos/OiKfcBQoLO8)
 - Our Story Page, Mussels in basket, [Matt Seymour](https://unsplash.com/photos/c8YyNoxiFLw)
 - Our Story Page, Mussels cooking, [Margo Brodowicz](https://unsplash.com/photos/VHMeU2sUGAs)
-- Our Story Page, Mussels dish, []()
+- Our Story Page, Mussels dish, [Nikolay Smeh](https://unsplash.com/photos/godkmdG6M6o)
 - Lunch Menu, [Liuda Brogiene](https://unsplash.com/photos/fTcJd8Nzao0)
 - Dinner Menu, [Kyle Mackie](https://unsplash.com/photos/1IxhHrTxbwI)
 - Specials Menu, [Marko Markovic](https://unsplash.com/photos/56kWr2jlorw)
