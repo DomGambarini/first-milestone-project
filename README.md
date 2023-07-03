@@ -13,7 +13,9 @@ This repository contains all the necessary information and code for the website 
 - [Technology](#technology)
 - [Testing](#testing)
 - [Deployment](#deployment)
-
+- [Credits](#credits)
+- [References](#references)
+ 
 ## Business Goals
 
 ### Hugo's Bistro website is designed to achieve the following business objectives:
@@ -25,7 +27,7 @@ This repository contains all the necessary information and code for the website 
 - To strengthen the brand identity. The restaurant has been running since 1985.
 - To increase sales by more users booking through the website
 - For the website to create an emotional trigger with users and to make a booking.
-- A user friendly and aesthetically beautiful website to reflect the quality food and service that Hugo’s Bistro offers.
+- A user friendly and aesthetically beautiful website to reflect the quality food and service that Hugo's Bistro offers.
 - For new users to understand who we are and what we do.
 
 ### Hugo's Bistro website aims to fulfil the following user goals:
@@ -41,9 +43,9 @@ This repository contains all the necessary information and code for the website 
 
 ## 5 Planes of UX
 
-To ensure a comprehensive and seamless user experience, the Hugo's Bistro website focuses on the following five planes of UX:
+To ensure a comprehensive and seamless user experience, Hugo's Bistro website focuses on the following five planes of UX:
 
-**Strategy:** The website aligns with the business goals of promoting Hugo's Bistro and engaging users effectively. It encompasses a user-centered design approach to meet the needs of visitors and drive bookings. The aim is to create a website that is visually appealing, and users instinctively recognise what Hugo's Bistro is - relaxed and a good quality French establishment.
+**Strategy:** The website aligns with the business goals of promoting Hugo's Bistro and engaging users effectively. It encompasses a user-centered design approach to meet the needs of visitors and drive bookings. The aim is to create a website that is visually appealing, and users instinctively recognise what Hugo's Bistro represents - a relaxed and a good quality French establishment.
 
 **Scope:** The website provides essential information about Hugo's Bistro, including its menus, our story page, reservation form and contact information. It emphasises simplicity and clarity to ensure visitors can easily find the desired information.
 
@@ -93,14 +95,13 @@ Below the review section is a small snippet from the opening paragraph of the �
 
 ### Our Story Page
 
-The Our Story page of Hugo's Bistro provides a content about the heritage and culinary inspiration behind the restaurant.
-You also find three of images that highlight one of the locations where our ingredients are sourced, how they’re cooked and served emphasising the of quality produce and ethos of the restaurant.
+The Our Story page of Hugo's Bistro provides content about the heritage and culinary inspiration behind the restaurant.
+You will also find three images below the content that highlight the quality and values of the restaurant.
 
 ### Menus Page
 
-The Menus section of Hugo's Bistro website is designed to showcase our diverse range of culinary offerings. With enticing imagery and easy access to each menu, this section allows visitors to explore and discover the delectable options available. Here are the key features of the Menus section:
-Images with Overlay Text
-The Menus section features four captivating images - lunch, dinner, specials, and drinks. Each image highlights a specific aspect of the menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
+The Menus section of Hugo's Bistro website is designed to showcase our diverse range of culinary offerings. With enticing imagery and easy access to each menu, this section allows visitors to explore and discover food and drink options are available. Here are the key features of the Menus section:
+The Menus section features four captivating images - lunch, dinner, specials, and drinks. Each image highlights a specific menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
 
 ### Reservation Page
 
@@ -113,7 +114,7 @@ Please note that the time input on the booking form currently requires JavaScrip
 
 ### Find Us Page
 
-Features the email, contact number and address for Hugos Bistro
+Features the email, contact number and address for Hugo's Bistro.
 
 ### Features to be included in the future:
 
@@ -282,10 +283,19 @@ Any changes made and pushed to the main branch will automatically show up on the
 ## Credits
 
 **Code:**
-- Navigation Menu: Idea taken from [Adrian Twarog](https://www.youtube.com/watch?v=qNifU_aQRio&t=387s) Adrian Twarog. Edited for my own requirements. 
+- Navigation Menu: Idea taken from [Adrian Twarog](https://www.youtube.com/watch?v=qNifU_aQRio&t=387s). Edited for my own requirements. 
 - Reservation form: Idea taken from [The Net Ninja](https://www.youtube.com/watch?v=dKVX22GR7zQ). Heavily edited for my own design. 
 - Social links in footer. Taken from Code Institute [Putting it all Together: Mini Project with Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/). Adjusted for my own design. 
 
 ## References
 
 - All images taken from [unsplash.com](https://unsplash.com/)
+- Hero Image, [Rick Barrett - Ambitious Studio](https://unsplash.com/photos/6pHiNI4qEnQ)
+- Our Story Image on Homepage, [Tom Sekula](https://unsplash.com/photos/OiKfcBQoLO8)
+- Our Story Page, Mussels in basket, [Matt Seymour](https://unsplash.com/photos/c8YyNoxiFLw)
+- Our Story Page, Mussels cooking, [Margo Brodowicz](https://unsplash.com/photos/VHMeU2sUGAs)
+- Our Story Page, Mussels dish, []()
+- Lunch Menu, [Liuda Brogiene](https://unsplash.com/photos/fTcJd8Nzao0)
+- Dinner Menu, [Kyle Mackie](https://unsplash.com/photos/1IxhHrTxbwI)
+- Specials Menu, [Marko Markovic](https://unsplash.com/photos/56kWr2jlorw)
+- Drinks Menu, [Rick Barrett - Ambitious Studio](https://unsplash.com/photos/0DgZCy1hi5o)
