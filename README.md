@@ -252,7 +252,16 @@ Iphone 8
 
 ## Deployment
 
-### First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
+### Setting up GitHub pages:
+
+1. hello my name
+1. My name is john
+1. something random
+1. Any changes made and pushed to the main branch will automatically show up on the site.
+
+### Making changes to the website:
+
+First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
 
 #### Create a Code Anywhere account:
 
@@ -294,8 +303,6 @@ Forking: refers to creating a personal copy of someone else's repository under y
 2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
 3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
 4. At this point, you have successfully forked the repository, and you can start working with the code.
-
-Any changes made and pushed to the main branch will automatically show up on the site.
 
 ## Credits
 
