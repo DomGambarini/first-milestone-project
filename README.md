@@ -9,6 +9,7 @@ This repository contains all the necessary information and code for the website 
 - [Business-Goals](#business-goals)
 - [5-Planes-of-UX](#5-planes-of-ux)
 - [User-Stories](#user-stories)
+- [Wireframes](#wireframes)
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
@@ -81,6 +82,28 @@ As a frequent user of the Hugo's Bistro website:
 - I want to easily access the website on my mobile device or tablet.
 - I want to sign up for a newsletter to receive updates on new menus and events.
 - I want to check if there are any new additions or changes to the menu.
+
+## Wireframes
+
+#### Homepage
+
+![Homepage](documentation/wireframes/homepage.png)
+
+#### Our Story
+
+![Our Story](documentation/wireframes/our-story.png)
+
+#### Menus
+
+![Menus](documentation/wireframes/menus.png)
+
+#### Reservations
+
+![Reservations](documentation/wireframes/reservations.png)
+
+#### Find Us
+
+![Find Us](documentation/wireframes/find-us.png)
 
 ## Features
 
@@ -174,7 +197,7 @@ I had to change the contrast of the colour green used for the heading to become 
 | Homepage          | click call to action button: BOOK NOW                            | navigates to Reservations                                               | pass       |
 | Homepage          | click call to action button: READ MORE                           | navigates to Our Story                                                  | pass       |
 | Footer            | Clicked Newsletter: SIGN ME UP!                                  | pop-up: "please fill in this field"                                     | pass       |
-| Footer            | entered details: clicked SIGN ME UP!                            | data post's to https://formdump.codeinstitute.net                       | pass       |
+| Footer            | entered details: clicked SIGN ME UP!                             | data post's to https://formdump.codeinstitute.net                       | pass       |
 | Footer            | Hover cursor on each social icon                                 | colour trasition to green                                               | pass       |
 | Footer            | click social Facebook icon                                       | navigates on separate tab to Facebook                                   | pass       |
 | Footer            | click social Twitter icon                                        | navigates on separate tab to Twitter                                    | pass       |
@@ -227,7 +250,6 @@ Iphone 8
 - Reservations: time input displays all times available. It would be more user friendly to offer booking slots available every 15 minutes between 12 and 22:00.
 - Reservations: phone input field allows you to enter text and numbers. It would be better to allow number entry only.
 
-
 ## Deployment
 
 ### First you need to sign-up to GitHub and Code Anywhere. To do this please see below.
@@ -239,7 +261,7 @@ Iphone 8
 3. Enter Email
 4. Enter new password
 
-#### Create a GitHub account: 
+#### Create a GitHub account:
 
 1. If you don't already have one, go to the GitHub website https://github.com/ and create a new account.
 2. Click sign up
@@ -250,14 +272,13 @@ Iphone 8
 7. Click create account
 8. Verify your account in using your sign-up email
 
+To access the code to this project there are two options: **Cloning** and **Forking**.
 
-To access the code to this project there are two options: **Cloning** and **Forking**.  
-
-Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval. 
+Cloning: code will be linked to your repo and any pushes you make will go to the original developer for approval.
 
 #### Here is how to clone code:
 
-1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
+1. On GitHub.com, navigate to the main page of the repository. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
 2. Above the list of files, click <> **Code**.
 3. Copy the URL for the repository.
 4. In a separate tab, open Code Anywhere
@@ -267,25 +288,22 @@ Cloning: code will be linked to your repo and any pushes you make will go to the
 
 Forking: refers to creating a personal copy of someone else's repository under your own GitHub account. This copy is stored in your account and allows you to freely experiment with and make changes to the code without affecting the original repository. If I make changes to the original repo you will be informed and have the option to pull.
 
-
 #### Here is how to fork code:
 
-1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project) 
+1. Log in to your GitHub account and navigate to the repository you want to fork. You can find that [here](https://github.com/DomGambarini/first-milestone-project)
 2. On the repository's page, click on the "Fork" button located at the top right corner of the page. This action creates a copy of the repository under your GitHub account.
 3. GitHub will redirect you to the forked repository, which is now hosted under your account. You can identify it by the "forked from" message displayed at the top of the repository name.
 4. At this point, you have successfully forked the repository, and you can start working with the code.
 
-
-
 Any changes made and pushed to the main branch will automatically show up on the site.
-
 
 ## Credits
 
 **Code:**
-- Navigation Menu: Idea taken from [Adrian Twarog](https://www.youtube.com/watch?v=qNifU_aQRio&t=387s). Edited for my own requirements. 
-- Reservation form: Idea taken from [The Net Ninja](https://www.youtube.com/watch?v=dKVX22GR7zQ). Heavily edited for my own design. 
-- Social links in footer. Taken from Code Institute [Putting it all Together: Mini Project with Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/). Adjusted for my own design. 
+
+- Navigation Menu: Idea taken from [Adrian Twarog](https://www.youtube.com/watch?v=qNifU_aQRio&t=387s). Edited for my own requirements.
+- Reservation form: Idea taken from [The Net Ninja](https://www.youtube.com/watch?v=dKVX22GR7zQ). Heavily edited for my own design.
+- Social links in footer. Taken from Code Institute [Putting it all Together: Mini Project with Bootstrap 4](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/). Adjusted for my own design.
 
 ## References
 
