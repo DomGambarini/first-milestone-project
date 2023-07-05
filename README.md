@@ -214,7 +214,7 @@ I had to change the contrast of the colour green used for the heading to become 
 | Homepage          | click call to action button: READ MORE                           | navigates to Our Story                                                  | pass       |
 | Footer            | Clicked Newsletter: SIGN ME UP!                                  | pop-up: "please fill in this field"                                     | pass       |
 | Footer            | entered details: clicked SIGN ME UP!                             | data post's to https://formdump.codeinstitute.net                       | pass       |
-| Footer            | Hover cursor on each social icon                                 | colour trasition to green                                               | pass       |
+| Footer            | Hover cursor on each social icon                                 | colour transition to green                                              | pass       |
 | Footer            | click social Facebook icon                                       | navigates on separate tab to Facebook                                   | pass       |
 | Footer            | click social Twitter icon                                        | navigates on separate tab to Twitter                                    | pass       |
 | Footer            | click social Pinterest icon                                      | navigates on separate tab to Pinterest                                  | pass       |
@@ -223,7 +223,7 @@ I had to change the contrast of the colour green used for the heading to become 
 | Menus page        | click Dinner menu                                                | cursor pointer active and opens on separate tab                         | pass       |
 | Menus page        | click Specials menu                                              | cursor pointer active and opens on separate tab                         | pass       |
 | Menus page        | click Drinks menu                                                | cursor pointer active and opens on separate tab                         | pass       |
-| Reservations page | Date: clicked date icon                                          | displays calender                                                       | pass       |
+| Reservations page | Date: clicked date icon                                          | displays calendar                                                       | pass       |
 | Reservations page | Date: entered date manually                                      | displays date entered                                                   | pass       |
 | Reservations page | Time: clicked time icon                                          | displays time                                                           | pass       |
 | Reservations page | Time: entered time manually                                      | displays time entered                                                   | pass       |
