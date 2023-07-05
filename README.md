@@ -110,7 +110,8 @@ As a frequent user of the Hugo's Bistro website:
 Each page consists of the navigation bar fixed to the top of each page to help visitors click through the site with ease. You will also find the footer at the bottom of each page that includes form to sign up to the newsletter, opening hours and links to Hugoâ€™s social media pages.
 
 ![Navigation Bar Image](documentation/website-images/navigation-bar.png)
-![Hamburger-Navigation Image](documentation/website-images/hamburger-navigation-bar.png)
+![Hamburger-Navigation Image](documentation/website-images/hamburger-navigation.png)
+![Footer Image](documentation/website-images/footer.png)
 
 ### Homepage
 
@@ -121,7 +122,7 @@ Below the review section is a small snippet from the opening paragraph of the â€
 
 ![Image of the homepage](documentation/website-images/homepage.png)
 ![Customer Reviews image](documentation/website-images/customer-reviews.png)
-![Our Story snippet(documentation/website-images/our-story-snippet.png)
+![Our Story snippet](documentation/website-images/our-story-snippet.png)
 
 
 ### Our Story Page
@@ -129,10 +130,14 @@ Below the review section is a small snippet from the opening paragraph of the â€
 The Our Story page of Hugo's Bistro provides content about the heritage and culinary inspiration behind the restaurant.
 You will also find three images below the content that highlight the quality and values of the restaurant.
 
+![Our Story Image](documentation/website-images/our-story-page.png)
+
 ### Menus Page
 
 The Menus section of Hugo's Bistro website is designed to showcase our diverse range of culinary offerings. With enticing imagery and easy access to each menu, this section allows visitors to explore and discover food and drink options are available. Here are the key features of the Menus section:
 The Menus section features four captivating images - lunch, dinner, specials, and drinks. Each image highlights a specific menu on offer with overlay text explaining what time the menu is available and a pdf link of the menu which opens in a separate tab.
+
+![Menus Page Image](documentation/website-images/menus.png)
 
 ### Reservation Page
 
@@ -143,9 +148,13 @@ name, time, date, email, phone number, number of Guests and allergy / dietary re
 JavaScript Dependency for Time Input
 Please note that the time input on the booking form currently requires JavaScript to function correctly which I have not covered in the course yet.
 
+![Reservation Page Image](documentation/website-images/reservation-page.png)
+
 ### Find Us Page
 
 Features the email, contact number and address for Hugo's Bistro.
+
+![Find Us Page Image](documentation/website-images/find-us-page.png)
 
 ### Features to be included in the future:
 
