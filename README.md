@@ -124,7 +124,6 @@ Below the review section is a small snippet from the opening paragraph of the â€
 ![Customer Reviews image](documentation/website-images/customer-reviews.png)
 ![Our Story snippet](documentation/website-images/our-story-snippet.png)
 
-
 ### Our Story Page
 
 The Our Story page of Hugo's Bistro provides content about the heritage and culinary inspiration behind the restaurant.
