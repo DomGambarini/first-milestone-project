@@ -109,12 +109,20 @@ As a frequent user of the Hugo's Bistro website:
 
 Each page consists of the navigation bar fixed to the top of each page to help visitors click through the site with ease. You will also find the footer at the bottom of each page that includes form to sign up to the newsletter, opening hours and links to Hugo’s social media pages.
 
+![Navigation Bar Image](documentation/website-images/navigation-bar.png)
+![Hamburger-Navigation Image](documentation/website-images/hamburger-navigation-bar.png)
+
 ### Homepage
 
 The homepage of the Hugo's Bistro website includes the following features to enhance user engagement and provide a captivating experience:
 A visually appealing hero's image is featured on the homepage. This image captures the user’s attention and entices them to explore more. There’s also a prominent call-to-action button is strategically placed on the hero image, encouraging users to make reservations directly.
 Below the hero image displays positive customer reviews to show the restaurant's excellent reputation and customer satisfaction. These reviews serve as social proof and encourage visitors to explore further.
 Below the review section is a small snippet from the opening paragraph of the ‘Our Story’ page with a call-to-action button.
+
+![Image of the homepage](documentation/website-images/homepage.png)
+![Customer Reviews image](documentation/website-images/customer-reviews.png)
+![Our Story snippet(documentation/website-images/our-story-snippet.png)
+
 
 ### Our Story Page
 
@@ -254,9 +262,10 @@ Iphone 8
 
 ### Setting up GitHub pages:
 
-1. hello my name
-1. My name is john
-1. something random
+1. To add files to the repository take the following steps
+1. In the command line type - git add .
+   git commit -m "This is being committed" git push
+1. To add all new files or modified file use " ." - To add a single file use the pathway to the file eg .index.html or assets/css/style.css When committing make sure your comments are clear about what changes have been made. Pushing will send your work to the repository
 1. Any changes made and pushed to the main branch will automatically show up on the site.
 
 ### Making changes to the website:

@@ -101,17 +101,17 @@
                             max="2025-12-31" required>
                         
                         <label for="booking-time" class="form-label">Time:</label>
-                        <input type="time" class="form-control" id="booking-time" name="booking-date" required>
+                        <input type="time" class="form-control" id="booking-time" name="booking-time" required>
                         
                         <label for="name" class="form-label">Name:</label>
-                        <input type="text" class="form-control" id="name" placeholder="e.g John Smith" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="e.g John Smith" required>
                         
                         <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="e.g johnsmith@example.com"
+                        <input type="email" class="form-control" id="email" name="email" placeholder="e.g johnsmith@example.com"
                             required>
                         
                         <label for="phone" class="form-label">Phone:</label>
-                        <input type="number" class="form-control" id="phone" placeholder="e.g 07772 555666" required>
+                        <input type="number" class="form-control" id="phone" name="phone" placeholder="e.g 07772 555666" required>
                         
                         <label for="Guests" class="form-label">No. of Guests:</label>
                         <select class="form-select" aria-label="Default select example" required>
@@ -128,7 +128,7 @@
                         <br>
                         <label for="query" class="form-label">
                             Do you have any allergy or dietary requirements?</label>
-                        <textarea name="" id="query" class="form-control"></textarea>
+                        <textarea name="" id="query" name="query" class="form-control"></textarea>
                         <br>
                         <div class="mb-4 text-center">
                             <button type="submit" id="booknow-button"><strong>Book Now!</strong></button>
